@@ -52,4 +52,25 @@ if __name__ == '__main__':
         # You will have to look up how to do this formatting.
         # In order to get a proper markdown table,
         # you will have to also print a header line somewhere else.
-        print(f'len(xs)=2**{x} runtimes={runtimes}')
+        print(f"|{runtimes['timsort']:0.2f} | {runtimes['merge_sorted']:0.2f} |{runtimes['quick_sorted']:0.2f} |")
+        |`timsort`| `merge_sorted`|`quick_sorted`| 
+         | -------------- | ------------------------- | --------------------- |
+
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.00 |0.00 |
+        |0.00 | 0.01 |0.00 |
+        |0.00 | 0.02 |0.01 |
+        |0.00 | 0.05 |0.02 |
+        |0.00 | 0.09 |0.05 |
+        |0.01 | 0.20 |0.09 |
+        |0.02 | 0.39 |0.20 |
+        |0.04 | 0.93 |0.44 |
+
