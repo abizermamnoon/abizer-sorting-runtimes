@@ -118,7 +118,7 @@ and copy/paste the resulting table into this README file below this line.
 
 <!-- add the table here -->
         |`timsort`| `merge_sorted`|`quick_sorted`|
-         | -------------- | ------------------------- | --------------------- |
+        | -------------- | ------------------------- | --------------------- |
         |0.00 | 0.00 |0.00 |
         |0.00 | 0.00 |0.00 |
         |0.00 | 0.00 |0.00 |
